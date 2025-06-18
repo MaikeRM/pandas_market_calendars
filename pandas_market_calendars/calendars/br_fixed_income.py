@@ -28,7 +28,7 @@ from pandas_market_calendars.holidays.br import (
     Natal
 )
 
-class ANBIMAHolidayCalendar(MarketCalendar):
+class BRFixedIncomeCalendar(MarketCalendar):
     """
     Calendário de feriados nacionais brasileiros segundo ANBIMA
     
@@ -55,7 +55,7 @@ class ANBIMAHolidayCalendar(MarketCalendar):
     3) O critério adotado foi indicar os feriados em que não há sensibilização das Reservas Bancárias
     """
 
-    aliases = ["ANBIMA", "FERIADOS_NACIONAIS"]
+    aliases = ["BR", "BRFIX", "ANBIMA", "FERIADOS_NACIONAIS"]
     
     # Horários padrão do mercado financeiro brasileiro
     regular_market_times = {

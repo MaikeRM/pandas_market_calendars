@@ -1,6 +1,7 @@
 from .market_calendar import MarketCalendar
 from .calendars.asx import ASXExchangeCalendar
 from .calendars.bmf import BMFExchangeCalendar
+from .calendars.br_fixed_income import BRFixedIncomeCalendar
 from .calendars.bse import BSEExchangeCalendar
 from .calendars.cboe import CFEExchangeCalendar
 from .calendars.cme import CMEEquityExchangeCalendar, CMEBondExchangeCalendar
