@@ -39,7 +39,7 @@ from pandas_market_calendars.holidays.br import (
     DiaTrabalho,
     RevConstitucionalista_1997_2019 as Constitucionalista,
     IndependenciaBrasil as Independencia,
-    NossaSeñoraAparecida as Aparecida,
+    NossaSenhoraAparecida as Aparecida,
     Finados,
     ProclamacaoRepublica,
     ConscienciaNegraMunicipal as ConscienciaNegra,
