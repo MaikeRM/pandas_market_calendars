@@ -2,6 +2,7 @@
 from .market_calendar import MarketCalendar
 from .calendars.asx import ASXExchangeCalendar
 from .calendars.bmf import BMFExchangeCalendar
+from .calendars.anbima import AnbimaExchangeCalendar
 from .calendars.bse import BSEExchangeCalendar
 from .calendars.cboe import CFEExchangeCalendar
 from .calendars.cme import CMEEquityExchangeCalendar, CMEBondExchangeCalendar
